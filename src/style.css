@@ -27,3 +27,25 @@ header {
   background-image: url(./img/rocket.svg);
   background-size: contain;
 }
+
+.msg {
+	color: white;
+	padding: 10px;
+}
+.msg--valid {
+	background-color: green;
+}
+.msg--invalid {
+	background-color: red;
+}
+
+
+body {
+  margin: 0;
+  padding: 2rem;
+  color: white;
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;}
